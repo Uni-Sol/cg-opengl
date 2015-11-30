@@ -11,7 +11,7 @@ int main( int argc, char* args[] ) {
 	
 	glutInitWindowSize(SCREEN_WIDTH, SCREEN_HEIGHT);
 	
-	glutCreateWindow("Hello OpenGL!");
+	glutCreateWindow("Hello OpenGL");
 	
 	if(! initGL() ) {
 		printf( "Unable to initialize graphics library.\n" );
